@@ -1,4 +1,4 @@
-# Coucou
+# Coucou (Android)
 A highly modular network service discovery and broadcast library that utilizes Kotlin's coroutines. For iOS, go to [coucou_ios](https://github.com/mrmitew/coucou_ios) repo.
 
 ## Coucou API
