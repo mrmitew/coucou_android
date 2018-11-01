@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/mrmitew/coucou_android.svg)](https://jitpack.io/#mrmitew/coucou_android)
+
 # Coucou (Android)
 A highly modular network service discovery and broadcast library that utilizes Kotlin's coroutines. For iOS, go to [coucou_ios](https://github.com/mrmitew/coucou_ios) repo.
 
@@ -48,7 +50,28 @@ disposable?.dispose()
 ```
 
 * Note: the discovery and broadcast have to be executed in suspending functions or within coroutines. Please see the sample app for a better example.
-    
+
+## Installation
+
+### Gradle
+
+Modify your root build.gradle to look like so:
+```groovy
+allprojects {
+    repositories {
+        // other repos here
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Then add the libray dependency to your app's build.gradle
+```groovy
+implementation 'com.github.mrmitew:coucou_android:<ENTER_COUCOU_VERSION_HERE>'
+```
+
+Done.
+
 ## To do
 * Write unit tests 
 * Complete sample
